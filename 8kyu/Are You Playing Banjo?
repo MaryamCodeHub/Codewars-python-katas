@@ -1,0 +1,11 @@
+# Codewars Kata: Are You Playing Banjo?
+# Difficulty: 8 kyu
+# Link: https://www.codewars.com/kata/53af2b8861023f1d88000832/solutions/python
+# Create a function which answers the question "Are you playing banjo?".If your name starts with the letter "R" or lower case "r", you are playing banjo!
+
+def are_you_playing_banjo(name):
+    if name[0].lower() == "r":
+        return name+ " plays banjo"
+    else:
+        return name + " does not play banjo"
+#donee
