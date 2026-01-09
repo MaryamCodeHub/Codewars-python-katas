@@ -1,0 +1,8 @@
+# Codewars Kata: Function 1 - hello world
+# Difficulty: 8 kyu
+# Link: https://www.codewars.com/kata/523b4ff7adca849afe000035/train/python
+# Write a function `greet` that returns "hello world!"
+
+def greet():
+    return "hello world!"
+#once again, hello world!
