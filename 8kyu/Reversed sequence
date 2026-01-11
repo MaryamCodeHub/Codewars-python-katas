@@ -1,0 +1,13 @@
+# Codewars Kata: Reversed sequence
+# Difficulty: 8 kyu
+# Link: https://www.codewars.com/kata/5a00e05cc374cb34d100000d/solutions/python
+# Build a function that returns an array of integers from n to 1 where n>0.
+#Example:
+#   n=5 --> [5,4,3,2,1]
+
+
+def reverse_seq(n):
+    array = []                 #empty array for storing
+    for i in range(n,0,-1):    #starting loop in reverse order using range elements like range(start, stop, step)
+        array.append(i)
+    return array
